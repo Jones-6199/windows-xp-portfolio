@@ -1,74 +1,44 @@
-🛠️ Tech Stack
-Frontend Framework: React 19
-Build Tool: Vite
-Styling: Tailwind CSS v4.2
-Type Checking: TypeScript (via @types packages)
-Code Quality: ESLint
-CSS Processing: PostCSS + Autoprefixer
+# 🎨 Windows XP Portfolio
 
----
+> A nostalgic, interactive personal portfolio built to bring back the classic Windows XP desktop experience using modern web technologies.
 
-windows-xp-portfolio/
-├── src/
-│   ├── components/
-│   │   ├── desktop/
-│   │   │   ├── Taskbar.jsx
-│   │   │   ├── StartMenu.jsx
-│   │   │   └── DesktopIcons.jsx
-│   │   ├── windows/
-│   │   │   ├── Window.jsx
-│   │   │   ├── AboutWindow.jsx
-│   │   │   ├── ProjectsWindow.jsx
-│   │   │   └── ContactWindow.jsx
-│   │   └── common/
-│   │       ├── Button.jsx
-│   │       └── Icon.jsx
-│   ├── assets/
-│   │   ├── images/
-│   │   └── icons/
-│   ├── styles/
-│   │   └── globals.css
-│   ├── App.jsx
-│   └── main.jsx
-├── public/
-├── index.html
-├── vite.config.js
-├── tailwind.config.js
-├── postcss.config.js
-├── package.json
-└── README.md
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=flat&logo=tailwind-css)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=flat&logo=vite)](https://vitejs.dev/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
---- 
+## ✨ Features
 
-🎮 How to Use
-Desktop Icons: Double-click any icon to open its corresponding window
-Start Menu: Click the Start button in the bottom-left corner to access all applications
-Window Management:
-Drag windows by their title bar
-Use the minimize/maximize/close buttons in the top-right corner
-Resize windows by dragging their edges
-Taskbar: View open applications and switch between them
-System Tray: Check the time and date in the bottom-right corner
-🎨 Customization
-Adding Your Content
-Update Portfolio Data: Modify the data files in src/data/ with your information
-Change Colors: Edit the Tailwind configuration in tailwind.config.js
-Replace Assets: Add your own images and icons to src/assets/
-Changing Themes
-The Windows XP theme can be modified by updating the color palette in the Tailwind config:
+- **Authentic Desktop Experience:** Fully functional taskbar, start menu, and system tray.
+- **Interactive Windows:** Draggable, minimizable, and maximizable windows for projects and contact info.
+- **Themed Content:**
+  - **My Documents:** Showcase your projects.
+  - **About Me:** Bio and resume.
+  - **Skills:** Interactive display of technical abilities.
+  - **Control Panel:** Contact form and social links.
+- **Classic Sounds:** Authentic Windows XP sound effects (startup, clicks, errors).
+- **Clock & Date:** Fully functional system clock in the bottom right corner.
 
-JavaScript
+## 🛠️ Tech Stack
 
-// tailwind.config.js
-module.exports = {
-  theme: {
-    extend: {
-      colors: {
-        'xp-blue': '#245EDC',
-        'xp-gray': '#D4D0C8',
-        'xp-dark-gray': '#808080',
-        // Add your custom colors
-      }
-    }
-  }
-  ]
+- **Framework:** [React](https://react.dev/) (v19)
+- **Build Tool:** [Vite](https://vitejs.dev/) (v7)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) (v4)
+- **Linting:** ESLint
+- **Language:** JavaScript / JSX
+
+## 🚀 Getting Started
+
+Follow these steps to get the project running on your local machine.
+
+### Prerequisites
+
+- Node.js (v18 or higher) installed.
+- npm or yarn package manager.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/windows-xp-portfolio.git
+   cd windows-xp-portfolio
