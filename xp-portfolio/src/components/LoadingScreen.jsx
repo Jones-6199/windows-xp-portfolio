@@ -9,9 +9,9 @@ export default function LoadingScreen() {
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
     >
       {/* Logos and texts */}
-      <div className="flex items-center space-x-6 mb-16">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 mb-16 mt-[-10vh] md:mt-0">
         {/* Fake XP Logo */}
-        <div className="w-24 h-24 flex flex-wrap gap-1 perspective-1000 transform -rotate-12 italic">
+        <div className="w-20 h-20 md:w-24 md:h-24 flex flex-wrap gap-1 perspective-1000 transform -rotate-12 italic">
             <div className="w-[45%] h-[45%] bg-[#ff5a36] rounded-tl-lg shadow-[inset_0_0_10px_rgba(255,255,255,0.5)]"></div>
             <div className="w-[45%] h-[45%] bg-[#7eb600] rounded-tr-lg shadow-[inset_0_0_10px_rgba(255,255,255,0.5)] mt-1"></div>
             <div className="w-[45%] h-[45%] bg-[#00a3f4] rounded-bl-lg shadow-[inset_0_0_10px_rgba(255,255,255,0.5)] -mt-1"></div>
@@ -19,11 +19,11 @@ export default function LoadingScreen() {
         </div>
 
         {/* Text */}
-        <div className="flex flex-col">
-          <h1 className="text-5xl font-italic font-bold tracking-tight">
-            MitchVin <span className="text-[#f16323]">XP</span>
+        <div className="flex flex-col items-center md:items-start text-center md:text-left">
+          <h1 className="text-4xl md:text-5xl font-italic font-bold tracking-tight pb-1">
+            Benziane Younes <span className="text-[#f16323] ml-1">XP</span>
           </h1>
-          <h2 className="text-xl text-gray-400 font-medium self-end">Visual Designer</h2>
+          <h2 className="text-lg md:text-xl text-gray-400 font-medium">Frontend Developer</h2>
         </div>
       </div>
 
@@ -47,12 +47,14 @@ export default function LoadingScreen() {
       </div>
 
       {/* Footer Text */}
-      <div className="absolute bottom-10 left-10 text-gray-500 text-lg flex items-center gap-2">
-        <span className="text-sm">Microsoft</span>
-        <span className="text-xs">Copyright © 1985-2001</span>
-      </div>
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-gray-400 text-sm">
-        For the best experience, Enter Full Screen (F11)
+      <div className="absolute bottom-6 md:bottom-10 left-0 w-full flex flex-col-reverse md:flex-row items-center justify-between px-4 md:px-10 gap-4 md:gap-0">
+        <div className="text-gray-500 flex flex-col md:flex-row items-center gap-1 md:gap-2 text-center md:text-left">
+          <span className="text-sm md:text-base font-bold text-gray-400 md:text-gray-500">Microsoft</span>
+          <span className="text-[10px] md:text-xs">Copyright © 2026 Benziane Younes. All rights reserved.</span>
+        </div>
+        <div className="text-gray-400 text-[10px] md:text-sm text-center md:absolute md:left-1/2 md:-translate-x-1/2">
+          For the best experience, Enter Full Screen (F11)
+        </div>
       </div>
     </motion.div>
   );

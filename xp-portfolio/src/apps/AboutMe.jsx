@@ -8,16 +8,17 @@ export default function AboutMe() {
           <img src="/avatar.jpg" alt="Profile" className="w-full h-full object-cover" />
         </div>
         <div>
-          <h1 className="text-3xl font-bold font-serif mb-1">MitchVin</h1>
-          <p className="text-xl text-gray-600 font-medium">Visual Designer & Developer</p>
+          <h1 className="text-3xl font-bold font-serif mb-1">Benziane Younes</h1>
+          <p className="text-xl text-gray-600 font-medium">Frontend Developer</p>
         </div>
       </div>
 
       <div className="p-4 rounded-sm text-sm leading-relaxed text-black font-serif">
         <p>
-          Hello! I am a passionate Visual Designer and Developer with a deep love for creating interactive, 
-          nostalgic, and highly functional digital experiences. With a strong foundation in modern web technologies, 
-          I bridge the gap between design and development to build pixel-perfect applications.
+          Hello! I am a Frontend Developer based in Algeria, specialized in building modern, responsive, 
+          and user-focused web applications using React and modern JavaScript. With a strong foundation 
+          in frontend technologies, I also have backend knowledge and can work with APIs, authentication 
+          systems, and databases.
         </p>
         <p className="mt-2">
           This portfolio is a tribute to the classic Windows XP layout, aiming to evoke nostalgia while showcasing 
@@ -51,10 +52,11 @@ export default function AboutMe() {
           
           <div className="col-span-2 bg-purple-50 border border-purple-200 rounded p-2 flex items-center gap-2">
             <User className="w-4 h-4 text-purple-700" />
-            UI/UX Design
+            Backend Knowledge
             <div className="ml-auto flex gap-1">
-                <span className="bg-pink-500 text-white text-[10px] px-1.5 py-0.5 rounded">Figma</span>
-                <span className="bg-orange-500 text-white text-[10px] px-1.5 py-0.5 rounded">Wireframing</span>
+                <span className="bg-green-600 text-white text-[10px] px-1.5 py-0.5 rounded">Node.js</span>
+                <span className="bg-yellow-600 text-white text-[10px] px-1.5 py-0.5 rounded">Express</span>
+                <span className="bg-green-800 text-white text-[10px] px-1.5 py-0.5 rounded">MongoDB</span>
             </div>
           </div>
         </div>

@@ -5,28 +5,28 @@ export default function Projects() {
     {
       id: 1,
       name: 'Retro OS Simulator',
-      desc: 'A full browser-based operating system simulator with window management, a file system, and games.',
+      desc: 'A full browser-based operating system simulator with complex state management and fluid UI animations.',
       tech: ['React', 'Framer Motion', 'Zustand'],
       image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=300&fit=crop',
     },
     {
       id: 2,
       name: 'E-commerce Dashboard',
-      desc: 'Modern admin panel for managing products, viewing analytics, and handling orders.',
+      desc: 'Modern admin panel focusing on visual performance, responsive layouts, data visualization, and seamless user experience.',
       tech: ['Next.js', 'TailwindCSS', 'TypeScript'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop',
     },
     {
       id: 3,
       name: 'AI Image Generator',
-      desc: 'An AI-powered application to create stylized images using various DALL-E and Midjourney APIs.',
+      desc: 'An AI-powered application to create stylized images, featuring a highly responsive gallery and intuitive user interfaces.',
       tech: ['React', 'Node.js', 'OpenAI API'],
       image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=300&fit=crop',
     },
     {
       id: 4,
       name: 'Social Media App',
-      desc: 'A fully responsive social platform with real-time chat, feed algorithms, and story features.',
+      desc: 'A fully responsive social platform with real-time updates, optimized rendering, and a mobile-first design approach.',
       tech: ['React Native', 'Firebase', 'Redux'],
       image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=400&h=300&fit=crop',
     }

@@ -30,10 +30,10 @@ export default function StartMenu({ isOpen, toggleStartMenu, openWindow }) {
       >
         <div className="w-12 h-12 bg-[#e4a369] rounded shadow-[0_0_2px_rgba(0,0,0,0.5)] relative overflow-hidden flex items-center justify-center p-[2px]">
           <div className="w-full h-full border border-white rounded-sm overflow-hidden bg-white">
-             <img src="/avatar.jpg" alt="Mitch Ivin" className="w-full h-full object-cover" />
+             <img src="/avatar.jpg" alt="Benziane Younes" className="w-full h-full object-cover" />
           </div>
         </div>
-        <span className="text-white text-lg font-bold drop-shadow-md" style={{ textShadow: "1px 1px 2px rgba(0,0,0,0.6)" }}>Mitch Ivin</span>
+        <span className="text-white text-lg font-bold drop-shadow-md" style={{ textShadow: "1px 1px 2px rgba(0,0,0,0.6)" }}>Benziane Younes</span>
       </div>
 
       {/* Body */}

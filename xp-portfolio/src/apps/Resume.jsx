@@ -21,8 +21,8 @@ export default function Resume() {
          <div className="bg-white w-full max-w-[600px] shadow-lg border border-gray-300 p-8 h-max">
             
             <header className="border-b-2 border-gray-800 pb-4 mb-4 text-center">
-              <h1 className="text-3xl font-bold uppercase tracking-wider text-black">MitchVin</h1>
-              <p className="text-sm text-gray-600 font-sans mt-1">mitchvin@example.com | +1 (555) 012-3456 | mitchvin.dev</p>
+              <h1 className="text-3xl font-bold uppercase tracking-wider text-black">Benziane Younes</h1>
+              <p className="text-sm text-gray-600 font-sans mt-1">contact@benzianeyounes.me | Algeria | github.com/benzianeyounes</p>
             </header>
 
             <section className="mb-6">
@@ -31,23 +31,23 @@ export default function Resume() {
               </h2>
               <div className="mb-4">
                 <div className="flex justify-between items-baseline mb-1">
-                  <h3 className="font-bold text-black">Senior UI Engineer - TechNova</h3>
+                  <h3 className="font-bold text-black">Frontend Developer - TechNova</h3>
                   <span className="text-sm text-gray-500 font-sans">Jan 2022 - Present</span>
                 </div>
                 <ul className="list-disc list-inside text-sm text-gray-700 font-sans space-y-1 ml-2">
-                  <li>Lead a team of 4 frontend developers to rebuild the core dashboard in React.</li>
+                  <li>Lead frontend development building core features in React and modern JS.</li>
                   <li>Improved application load time by 45% through code splitting and tree-shaking.</li>
-                  <li>Designed and implemented a full design system using TailwindCSS.</li>
+                  <li>Built and implemented a full responsive and accessible UI using TailwindCSS.</li>
                 </ul>
               </div>
               <div>
                 <div className="flex justify-between items-baseline mb-1">
-                  <h3 className="font-bold text-black">Web Designer - Creative Studio</h3>
+                  <h3 className="font-bold text-black">Junior Frontend Developer - Creative Studio</h3>
                   <span className="text-sm text-gray-500 font-sans">Jun 2019 - Dec 2021</span>
                 </div>
                 <ul className="list-disc list-inside text-sm text-gray-700 font-sans space-y-1 ml-2">
-                  <li>Created high-fidelity wireframes and interactive prototypes in Figma.</li>
-                  <li>Developed engaging landing pages using HTML, CSS, and Vanilla JavaScript.</li>
+                  <li>Translated high-fidelity wireframes into interactive and responsive web applications.</li>
+                  <li>Developed engaging interfaces using HTML, CSS, and modern JavaScript.</li>
                 </ul>
               </div>
             </section>

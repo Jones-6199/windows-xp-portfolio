@@ -163,7 +163,7 @@ export default function Window({ id, title, Icon, isActive, isMaximized, zIndex,
         </div>
         {/* Status Bar */}
         <div className="h-5 bg-[#ece9d8] border-t border-[#aca899] flex items-center px-2 text-[10px] text-black">
-          {`Learn more about Mitch`}
+          {`Learn more about Benziane`}
         </div>
       </div>
     </motion.div>
