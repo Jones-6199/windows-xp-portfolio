@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Segoe UI", "Tahoma", sans-serif;
+  --color-xp-blue: #003399;
+  --color-xp-blue-light: #2562cb;
+  --color-xp-green: #3c8141;
+  --color-xp-green-light: #4c9d53;
+  --color-xp-taskbar: #245edb;
+  --color-window-bg: #ece9d8;
+  --color-window-title: #0055e5;
+}
+
+@layer base {
+  body {
+    @apply m-0 overflow-hidden select-none font-sans text-white bg-black;
+  }
+}
+
+@layer utilities {
+  .shadow-xp {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  .glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
